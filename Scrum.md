@@ -1,4 +1,4 @@
-## Scrum
+# Scrum
 O Scrum é uma estrutura usada pelas equipes para gerenciar seu trabalho. O Scrum implementa os princípios do Agile,  termo usado para descrever abordagens ao desenvolvimento de software enfatizando entrega incremental, colaboração em equipe, planejamento contínuo e aprendizado contínuo como um conjunto concreto de artefatos, práticas e funções.
 
 
