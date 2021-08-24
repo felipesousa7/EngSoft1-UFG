@@ -16,7 +16,7 @@ Responsável por garantir que o processo Scrum seja seguido pela equipe. Os mest
 
 Esses são os indivíduos que realmente implementaram o produto. Os indivíduos são proprietários de habilidades necessárias para o desenvolvimento do produto requerido, no caso da computação normalmente são desenvolvedores e engenheiros da computação e de software, são os responsáveis pela qualidade que define o produto final.
 
-## Artefatos do Scrum
+# Artefatos do Scrum
 
 Artefatos do Scrum Os artefatos do Scrum são utilizados para verificar as atividades pendentes para a Equipe de Desenvolvimento e quais delas já estão sendo trabalhadas pela equipe
 
@@ -32,7 +32,7 @@ O backlog do produto, ou product backlog, é o documento mais importante que des
 O Backlog Sprint é uma lista específica de itens retirados do backlog do produto que devem ser entregues em um sprint.
 
 
-## Eventos Scrum
+# Eventos Scrum
 No conceito de Scrum, existem 5 eventos principais nos quais toda a equipe participa. A vantagem dessa estrutura de eventos é que ela é repetitiva, interativa e direta, com o objetivo de manter a equipe alinhada para produzir mais, melhor e em menos tempo.
 
 ## Sprint
