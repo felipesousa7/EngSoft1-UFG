@@ -1,5 +1,5 @@
 # Engenharia de software - UFG
 ## Integrantes da equipe
-* 
-* 
-* 
+* EDUARDO SILVESTRE PIRES GONÇALVES
+* FELIPE DE SOUSA ANDRADE
+* GLAUBER BORGES LINDOLFO
