@@ -1,4 +1,4 @@
-# Scrum
+## Scrum
 O Scrum é uma estrutura usada pelas equipes para gerenciar seu trabalho. O Scrum implementa os princípios do Agile,  termo usado para descrever abordagens ao desenvolvimento de software enfatizando entrega incremental, colaboração em equipe, planejamento contínuo e aprendizado contínuo como um conjunto concreto de artefatos, práticas e funções.
 
 
@@ -30,7 +30,7 @@ Artefatos do Scrum Os artefatos do Scrum são utilizados para verificar as ativi
 
 	O Backlog Sprint é uma lista específica de itens retirados do backlog do produto que devem ser entregues em um sprint.
 
-Eventos Scrum
+# Eventos Scrum
 No conceito de Scrum, existem 5 eventos principais nos quais toda a equipe participa. A vantagem dessa estrutura de eventos é que ela é repetitiva, interativa e direta, com o objetivo de manter a equipe alinhada para produzir mais, melhor e em menos tempo.
 
 # Sprint
@@ -41,7 +41,7 @@ Sprint é um período de tempo no qual um trabalho específico definido previame
 # Daily Scrum
 O Scrum diário é uma reunião rápida, que não deve ultrapassar mais do que 15 minutos. Nessa reunião, cada membro expõe o progresso desde o último Daily Scrum, a atividade que está planejada antes do próximo encontro e qualquer barreira ou problema que possa impedir o progresso de sua tarefa.
 
-A revisão do Sprint
+# A revisão do Sprint
 Ao concluir um sprint, é necessário a revisão dele. Essa é a chance da equipe demonstrar um pouco às partes interessadas o trabalho realizado.
 
 # Retrospectiva
