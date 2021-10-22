@@ -1,0 +1,405 @@
+* {
+    padding:0;
+}
+
+
+body{
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    overflow:hidden;
+    font-family: bigJohn;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family: pierSansBold;   
+}
+.navbar{
+    color: rgb(255, 255, 255,.5) !important;
+    height:65px;
+    transition-delay: .3s;
+    margin: -5px;
+}
+.navbar.active{
+    background-color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    transition-delay: 0s;
+    z-index: 3;
+}
+a:link 
+{ 
+ text-decoration:none; 
+}
+.navbar-toggler{
+    position: relative;
+    border: none !important;
+    right: 35px;
+    z-index: 3 !important;
+    font-size: 20px;
+    top: 40px;
+    margin: -5px;
+}
+
+.modal-body{
+    text-emphasis: bold;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+.modal-content{
+    text-align: center;
+    background-color: rgb(88, 88, 90);
+    background: transparent;
+}
+.modalOption{
+    font-size: 30px !important;
+    color: rgb(230, 230, 230);
+    font-size: 10vh !important;
+    font-family: pierSansBold;
+}
+.modalOption:hover{
+    transition: .5s;
+    color: rgb(255, 255, 255, 0.8);
+    font-family: pierSansBold;
+    
+}
+#logoLitta{
+    position: absolute;
+    display: inline; 
+    color: rgb(39, 37, 37);
+    font-stretch: wider;
+    font-weight: 900;
+    font-family: bigJohn;
+    text-emphasis: bold;
+    left: 20px;
+    z-index: 3;
+    font-size: 30px;
+    transition: 1s;
+    top:10px;
+    margin: -5px;
+}
+#logoLitta.active{
+    color: rgb(230, 230, 230);
+    transition: 1s;
+}
+
+
+.option{
+    position: absolute;
+    color: rgb(119, 117, 117);
+    font-size: 20px;
+    font-stretch: wider;
+    font-weight: 900;
+    font-family: bigJohn;
+    text-emphasis: bold;
+    -webkit-transform: scale(1 , 1);
+    -ms-transform: scale(1 , 1);
+    transform: scale(1 , 1);
+    -webkit-transition: -webkit-transform 250ms linear;
+    transition: transform 250ms linear;
+}
+.option:hover , .option.active{
+    position: absolute;
+    font-stretch: wider;
+    font-weight: 900;
+    font-family: bigJohn ;
+    color: rgb(23, 23, 24) !important;
+    text-emphasis: bold;
+    -webkit-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2 , 1.2);
+    transform: scale(1.2 , 1.2);
+    -webkit-transition: -webkit-transform 250ms linear;
+    transition: transform 250ms linear;
+}
+
+
+
+.centered{
+    position: absolute;
+    left:50%;
+    top:150px;
+
+}
+
+#option1{
+    top: 30%;
+    right: 30%;
+}
+#option2{
+    top: 30%;
+    right: 17%;
+}
+#option3{  
+    top: 30%;
+    right: 5%;
+}
+#option4{  
+    right:10vw;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: rgb(155, 154, 154);
+ 
+}
+#separator{
+    left:0px;
+    top: 50%;
+    transform: translate(0, -50%) 
+}
+#option5{  
+    left:10vw;
+    top: 50%;
+    transform: translate(0, -50%) ;
+    color: rgb(155, 154, 154);
+
+}
+
+#botoes{
+    position: absolute;
+    bottom: 13vh;
+}
+#photoEdit{
+    position: absolute;
+    font-weight: bold;
+    margin-top: 1vh;
+    font-size: 2.5vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    background-color: #9b9999 !important;
+    border-radius: 30px;
+    color: white;
+    font-family: bigJohn;
+    padding: 1vh 35px 1vh 35px;
+    z-index: 2;
+    border:none !important;
+}
+#closeBt{
+    position: absolute; 
+    top:-8px;
+    right:-8px;
+    background-color:#9b9999; 
+    border-radius:100%;
+    width:25px;
+    height:25px;
+    border:none;
+    z-index:15
+}
+
+#deletadas{
+    position: absolute;
+    margin-top:7vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    background-color: #cfcfcf !important;
+    color: white;
+    border-radius: 30px;
+    padding: 2px 35px 2px 35px;
+    border:none !important;
+    z-index: 2;
+
+}
+
+.legenda{
+    position: absolute;
+    opacity:0;
+    bottom: 0;
+    z-index:5 ;
+    color: white;
+    font-family: bigJohn;
+    text-align:center;
+    width:100%;
+    height: 100%;
+}
+#legendaBt{
+    position: absolute;
+    opacity:0;
+    bottom: 7.5px;
+    right:10px;
+    z-index:5 ;
+    border-radius:17.5px;
+    color: white;
+    font-family: bigJohn;
+    text-align:center;
+    width:35px;
+    height: 35px;
+    float:right;
+    border:none;
+    background-color: #414040;
+    padding: 5px;
+}
+#comentario{
+    position: absolute;
+    opacity:0;
+    bottom: 10px;
+    left:10px;
+    border:none;
+    z-index:5 ;
+    color: white;
+    font-family: bigJohn;
+    text-align:center;
+    border-radius:15px;
+    width:80%;
+    float:left;
+    background-color: #414040;
+    padding: 5px;
+}
+#deletadaPor{
+    position: absolute;
+    opacity:1;
+    bottom: 0;
+    left:0;
+    border:none;
+    z-index:2 ;
+    color: white;
+    font-family: bigJohn;
+    text-align:center;
+    width:100%;
+    float:left;
+    background-color: #414040;
+    padding: 5px;
+}
+
+.swiper-slide-active:hover #textoLegenda{
+    text-align: left !important;
+    padding: 10px;
+    padding-bottom: 30px;
+    resize:none;
+    background-size: 100% 100%;
+    background-color: rgb(0, 0, 0,0.85);
+    background-blend-mode:overlay;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.swiper-slide-active:hover .legenda{
+    opacity:1;
+    transition:650ms ease-in-out;
+  }
+  .swiper-slide-active:hover #comentario{
+    opacity:1;
+    transition:650ms ease-in-out;
+  }
+  .swiper-slide-active:hover #deletadaPor{
+    opacity:0;
+    transition:650ms ease-in-out;
+  }
+  .swiper-slide-active:hover #legendaBt{
+    opacity:1;
+    transition:650ms ease-in-out;
+  }
+.icon{
+    filter: invert(1) sepia(0) saturate(1) hue-rotate(0deg) brightness(1.5);
+    width: 13px;
+    margin-left: 10px;
+}
+
+.oi{
+    width: 15px;
+}
+
+
+
+/* >>>>>>>>>>>>> TOGGLE ICON <<<<<<<<<<<  */
+
+.toggle{
+    position: absolute;
+    display: inline; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    margin: -5px;
+}
+
+.toggle span{
+    display: block;
+    width: 60px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(26, 26, 26);
+    transition: .3s;
+    box-shadow: 0 2px 2px rgba(0,0,0,.20);
+    z-index: 3;
+}
+.toggle.active span{
+    background: #fff;
+}
+.toggle span:nth-child(1){
+    transform: translate(-50%, -50%) translateY(-20px); 
+}
+.toggle span:nth-child(4){
+    transform: translate(-50%, -50%) translateY(20px); 
+}
+.toggle.active span:nth-child(1){
+   
+    transform: translate(-50%, -50%) translateY(0);
+    opacity: 0; 
+}
+.toggle.active span:nth-child(4){
+    background: #fff;
+    transform: translate(-50%, -50%) translateY(0);
+    opacity: 0; 
+}
+
+.toggle.active span:nth-child(2){
+    background: #fff;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition-delay: .15s; 
+}
+.toggle.active span:nth-child(3){
+    background: #fff;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transition-delay: .15s;  
+}
+.modal-backdrop
+{
+    z-index: 2;
+    background-color: rgb(0, 0, 0) !important;
+    opacity: 0.9 !important;
+}
+#toggleBt{
+    position: absolute;
+    margin: -5px;
+}
+#toggleBt:focus {outline:0;}
+
+@font-face {
+    font-family: bigJohn;
+    src: url('../appThemes/fonts/BigJohnPRO-Regular.otf');
+}
+@font-face {
+    font-family: pierSansBold ;
+    src: url('../appThemes/fonts/pier-sans-bold.otf');
+}
+
+@media only handheld and (max-height: 600px) {
+    #comentario:focus{
+        position: absolute;
+        top:0px;
+        padding-top:20px;
+        left:0;
+        height: 40px;
+        border:none;
+        z-index:5 ;
+        color: white;
+        font-family: bigJohn;
+        text-align:left;
+        padding-bottom:20px;
+        width:100%;
+        float:left;
+        background-color: #414040;
+        white-space: pre-wrap;
+    }
+
+    #botoes{
+        position: absolute;
+        bottom: 9vh !important;
+    }
+
+}
